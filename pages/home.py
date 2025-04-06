@@ -35,7 +35,7 @@ layout = dbc.Container([
         ],
         ),
         dbc.Row([
-            dbc.Col(html.H5('Human', style={'color': 'green'}, className="text-info"), width=4, style={'text-align': 'right'}),
+            dbc.Col(html.H5('Human'), width=4, style={'text-align': 'right', 'color': 'green'}),
             dbc.Col(dcc.Loading(id='loading', children=html.Div(''),
                                 type="default"),
                     width=4),
