@@ -1,5 +1,4 @@
 body {
-  /* background-color: #ffffff; */
   background: rgb(238, 174, 202);
   background: linear-gradient(
     90deg,
@@ -7,7 +6,7 @@ body {
     rgba(148, 187, 233, 1) 100%
   );
   margin: 0;
-  padding: 20px 0; /* Added padding at the top */
+  padding: 20px 0;
   max-width: 100%;
   min-height: 100%;
   font-family: "Lato", sans-serif;
@@ -18,8 +17,6 @@ body {
 .content {
   margin-right: 0;
   margin-left: 0;
-
-  /* padding: 2rem 1rem; */
 }
 
 .header {
@@ -28,13 +25,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 20px; /* Added margin to create space at the top */
-  padding: 20px 0; /* Added padding for extra spacing */
+  margin-top: 20px;
+  padding: 20px 0;
 }
 
 .header_title {
   color: #ffffff;
-  /* font-size: 48px; */
   font-weight: bold;
   text-align: center;
   margin: 0 auto;
@@ -68,6 +64,6 @@ body {
 }
 
 .custom-textarea::placeholder {
-  font-size: 20px; /* Increase placeholder font size */
-  color: gray; /* Optional: Change placeholder color */
+  font-size: 20px;
+  color: gray;
 }
